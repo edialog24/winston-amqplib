@@ -18,6 +18,7 @@
   "homepage": "https://github.com/edialog24/winston-amqplib#readme",
   "dependencies": {
     "amqplib": "^0.5.1",
+    "uuid": "^3.1.0",
     "winston": "^2.3.1"
   }
 }

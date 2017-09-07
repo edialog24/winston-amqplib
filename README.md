@@ -5,7 +5,7 @@ This library is a transport for winston for logging to amqp using the amqplib.
 # examples
 
 const winston = require('winston');
-require('./winston-amqplib');
+require('winston-amqplib');
 
 var logger = new (winston.Logger)({
 	transports: [
