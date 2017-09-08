@@ -10,7 +10,6 @@ require('winston-amqplib');
 var logger = new (winston.Logger)({
 	transports: [
 		new (winston.transports.Console)(),
-		//new (winston.transports.File)({ filename: 'somefile.log' })
 		new (winston.transports.WinstonAmqplib)({source:'myAppID', level:'info', correlationId:'id used for tracking messages'},{url:'url to rabbit',})
 	]
 });        
